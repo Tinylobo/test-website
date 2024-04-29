@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--This entire document is not public it is for personal use and practice, all content is not my own but is used for sake of training-->
+<html>
+  <link href="./resources/css/Index.css" type ="text/css" rel="stylesheet">
+<head>
+  <body>
+
+    <h2>Image Text Blocks</h2>
+    <p>How to place text blocks over an image:</p>
+    
+    <div class="container">
+      <img src="Resources/CSS/Resource Images/Diablo-4-release-date-0ff18e7.jpg" alt="Nature" style="width:100%;">
+      <div class="text-block">
+        <h4>Nature</h4>
+        <p>What a beautiful sunrise</p>
+      </div>
+    </div>
+    
+    </body>
+  
+</head>
+
+<!--Main Body here-->
+<body>
+  <img src="Resources/CSS/Resource Images/Diablo-4-release-date-0ff18e7.jpg">
+<!-- Rogue brief description -->
+
+<div class="description">
+  <h2 id="rogue">Rogue</h2>
+  <img src="Resources/CSS/Resource Images/Rogue-class-icon-Diablo-4.webp" height="300" width="300">
+  <h3>Diablo 4 Rogues</h3>
+  <p>"The Rogue is an adaptable, agile warrior who can specialize in ranged or close quarters combat. She can best any foe with her imbued weapons, perform powerful combo attacks, and can augment her arsenal with deadly poisons and shadow magic to slay demons with impunity."
+    - Class description</p>  
+
+</div>
+
+<!-- Rogue Gameplay -->
+<!--Personal note "Try linking the weapons to the WoWhead/wikki article for each weapon with its own href link"-->
+
+<div class="gameplay">
+  <h2 id="gameplay">Rogue Gameplay</h2>
+  <p>Rogues can alternate between ranged weapons 
+    <a href="bows or crossbows" title="ranged-weapons">bows or crossbows</a> and melee weapons 
+    <a href="specifically daggers or swords">specifically daggers or swords</a>. Just like the Barbarian's Arsenal system, they can alternate between these weapon categories, therefore, there is no locking out of skill options by picking a specific weapon choice. A skill's stats will depend on the appropriate weapons' stats: i.e. ranged skills will be calculated using ranged weapons. Another pillar of the class is mobility, which can be used for assault, quick repositioning, or to retreat.
+   Rogues combine aspects of the original Rogue, the Amazon, Assassin, and the Demon Hunter. Rogues typically have a very fast paced damage output e.g. Smaller damage numbers but produced at a faster rate unlike the other class that deals predominantly melee damage (Barbarians) who deal damage slower but put out larger damage numbers. Below is an example of some melee and ranged weapons that Rogues use daggers, swords, crossbows and bows, in previous versions of the game Bows could be paired up with arrow quivers to give bonus extra stats and crossbows could be dual wielded!</p>
+   <img src="Resources/CSS/Resource Images/Weapons/Bow.jpg" witdth="150" height="155"></img>
+   <img src="Resources/CSS/Resource Images/Weapons/crossbow.jpg" witdth="150" height="155"></img>
+   <img src="Resources/CSS/Resource Images/Weapons/sword.jpg" witdth="150" height="155"></img>
+   <img src="Resources/CSS/Resource Images/Weapons/dagger.jpg" witdth="150" height="155"></img>
+
+</div>
+<!-- Rogue Talents -->
+<!--same note here with the talent specs-->
+<div class="talent-specs">
+  <h2 id="talent-specs">Talent Specs</h2>
+  <p>The Rogue has three different specializations:
+    <a href="https://diablo.fandom.com/wiki/Combo_Points" title="combo_points" >Combo Points</a>, 
+    <a href="https://diablo.fandom.com/wiki/Exploit_Weakness" title=" exploit_weakness">Exploit Weakness</a>, and 
+    <a href="https://diablo.fandom.com/wiki/Shadow_Realm" title="shadow_realm"> Shadow realm.</a>
+    Each one is tied to a specific Rogue-world group and requires accomplishing a Rogue-specific quest to unlock. These three groups include the remnants of the Sisterhood of the Sightless Eye, the mercenaries of Kehjistan, and the outlaw smugglers of Hawezar</p>
+
+    <p>
+       <li><img src="Resources/CSS/Resource Images/D4ComboPointsIcon.webp" witdth="150" height="155"></img>Combo Points</li>Combo Points are used to bolster the straight numbers of skills and abilities usually giving flat damage increases
+       <li><img src="Resources/CSS/Resource Images/D4ExploitWeaknessIcon.webp" witdth="150" height="155"></img>Exploit weakness</li>Exploit weakness is usually designed around finding as the name states weakness's in the target or targets armor and resistances to circumvent and gain an advantage that way
+       <li><img src="Resources/CSS/Resource Images/D4ShadowRealmIcon.webp" witdth="150" height="155"></img>Shadow Realm</li>Shadow realm is typically used to cloak the rogue in shadowy mist to remove them from the line of site of enemies and give them increased damage for a brief time afterwards.
+      </p>    
+</div>
+
+<!--Imbue System-->
+<div class="damage_imbument">
+  <h2 id="damage imbuement">Damage Imbuement</h2>
+  <p>The Imbue system can modify the damage type of multiple skills with either 
+    <a href="https://diablo.fandom.com/wiki/Cold" title="cold">Cold</a> 
+    <a href="https://diablo.fandom.com/wiki/Poison" title="poison">Poison</a>, or 
+    <a href="https://diablo.fandom.com/wiki/Shadow_(Damage)" title="shadow damage">Shadow damage</a> as well as add secondary effects depending on type.
+    Rogues can lace their weapons with cursed oils, causing them to deal Shadow damage. Cursed enemies that die explode, inflicting a large amount of damage to nearby targets and can be an effective screen clear if a player can maintain the AoE momentum. Just like the Sorcerer, they are also capable of applying Chill effects with Cold attacks that build up to a full Freeze over time. 
+  </p>
+  <p>
+    <ul><img src="Resources/CSS/Resource Images/Poison.jpg" width ="290" height="290" > Poison</ul>
+    <ul><img src="Resources/CSS/Resource Images/Cold.jpg" width ="290" height="290">Cold</ul>
+    <ul><img src="Resources/CSS/Resource Images/Brutal.webp">Shadow</ul>
+  </p>
+  
+
+</div>
+
+<div>
+  <h2 id="elemental damage"> Element Damages</h2>
+  <p>As mentioned above Rogues have the ability to imbue scertain spells and abilities with Extra damage from the <a href="https://diablo.fandom.com/wiki/Elemental_Damage" title="elemental"> Elemental damage</a> tree which consists of 7 major sources of damage types 3 of which the rogues have direct access too through the imbuement system. </a></p>
+  <img src="Resources/CSS/Resource Images/Elements.webp">
+  <p>The Most common Elements used in damage sources are Cold, Poison and shadow, in previous versions of Diablo classes such as Monk and Crusader could make use of the Holy element for damage and healing abilities but those classes didnt make it in to Diablo 4.</p>
+
+  </h2>
+</div>
+
+ </body>
+  </html>
